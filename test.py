@@ -1,5 +1,5 @@
 def sum(a, b):
-  raise Exception("Not implemented")
+  return a + b
 
 def mul(a, b):
   pass
