@@ -6,3 +6,6 @@ def mul(a, b):
 
 def sub(a, b):
   pass
+
+def div(a, b):
+  pass
