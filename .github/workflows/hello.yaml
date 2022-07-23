@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - name: read-from-disk 
+        run: sh -c 'cat /now || true'
+      - name: write-on-disk 
+        run: sh -c 'date > /now'
