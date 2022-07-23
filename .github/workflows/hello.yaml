@@ -7,6 +7,6 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
       - name: read-from-disk 
-        run: sh -c 'cat /now || true'
+        run: sh -c 'cat /tmp/now || true'
       - name: write-on-disk 
-        run: sh -c 'date > /now'
+        run: sh -c 'date > /tmp/now'
